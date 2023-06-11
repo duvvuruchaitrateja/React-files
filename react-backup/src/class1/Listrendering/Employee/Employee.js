@@ -1,7 +1,7 @@
 import React,{component} from 'react'
-import employees from './Data'
+import employees from './Data.js'
 class Employee extends React.Component{
-    employees=employees
+   
     render(){
         return(
             <div>
@@ -18,7 +18,7 @@ class Employee extends React.Component{
                                       <th>gender</th>
                                     </tr>
 
-                                </thead>l
+                                </thead>
                                 <tbody>
                                     {
                                         employees.map((employee,index)=>{
