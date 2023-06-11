@@ -18,7 +18,7 @@ class Employee extends React.Component{
                                       <th>gender</th>
                                     </tr>
 
-                                </thead>
+                                </thead>l
                                 <tbody>
                                     {
                                         employees.map((employee,index)=>{

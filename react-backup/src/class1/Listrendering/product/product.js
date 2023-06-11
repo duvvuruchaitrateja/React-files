@@ -11,7 +11,7 @@ class Product extends Component {
     }
     decrHandler=()=>{
       this.setState({
-        qty:this.state.qty-1
+        qty:this.state.qty-1  
       })
     }
     incrHandler=()=>{

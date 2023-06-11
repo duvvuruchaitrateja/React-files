@@ -6,7 +6,7 @@ import Employees from './data'
     return (
       <div>
         <pre>{JSON.stringify(this.employees)}</pre>
-        <div className='container'>
+        <div  className='container'>
             <div className='row'>
                 <div className='col-md-6'>
                     <table className='table table-hover'>

@@ -4,7 +4,7 @@
 //import Movie from './components/Movie'
 //import Movie1 from './components/Movie1'
 //import Movie from './components/Movie'
-//import Message from './components/Message3'
+import Message from './components/Message3'
 //import Employee from './class1/Listrendering/Employee/Employee'
 //import Navbar from './class1/Listrendering/Navbar/Navbar'
 //import ProductWithoutbootstrap from "./class1/Listrendering/product/product-withoutbootstrap"
@@ -12,12 +12,13 @@
 //import ComponentB from "./class1/Listrendering/Props-Drilling/ComponentD"
 //import Employee from "./Class2/pd-listrendering/Employee/Employee"
 //import Navbar from "./Class2/pd-listrendering/Navbar/Navbar"
-import Product from "./Class2/pd-listrendering/product/product"
+//import Product from "./Class2/pd-listrendering/product/product"
+
 
 const App = () => {
   return (
     <div>
-      <Product/>
+      <Message/>
     </div>
   )
 }
