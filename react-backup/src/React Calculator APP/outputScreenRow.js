@@ -7,4 +7,4 @@ const OutputScreenRow=()=>{
         </div>
     );
 };
-export default OutputScreenRow
+export default OutputScreenRow;

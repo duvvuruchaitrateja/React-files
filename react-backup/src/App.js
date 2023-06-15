@@ -18,15 +18,15 @@
 //import Navbar from "./Class2/pd-listrendering/Navbar/Navbar"
 //import Product from "./Class2/pd-listrendering/product/product"
 //import CalculatorTitle from "./Calculator APP/Calculator Title.js"
-import OutputScreen from "./Calculator APP/OutputScreen"
+import Calculator from "./React Calculator APP/Calculator.js"
 
 
 const App = () => {
   return (
     <div>
-      <OutputScreen/>
+      <Calculator />
     </div>
   )
 } 
 
-export default App
+export default Calculator

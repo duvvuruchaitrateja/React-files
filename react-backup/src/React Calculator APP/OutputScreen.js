@@ -4,7 +4,6 @@ const OutputScreen=()=>{
     return(
         <div className="screen"> 
         <OutputScreenRow/>
-        <OutputScreenRow/>
            
            
         </div>
